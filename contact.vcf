@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kamugisha;Aimable Parfait;;;
+FN:Parfait A. Kamugisha
+TITLE:Senior Analyst, Portfolio Management
+ORG:Rwanda Social Security Board (RSSB);Asset Management Department
+EMAIL;TYPE=WORK:parfait.kamugisha@rssb.rw
+item1.URL:https://kamugishaparfait.github.io
+item1.X-ABLabel:Website
+item2.URL:https://www.linkedin.com/in/parfait-k-0222a5b2
+item2.X-ABLabel:LinkedIn
+ADR;TYPE=WORK:;;African Union Boulevard;Kigali;;;Rwanda
+NOTE:Phone deliberately omitted from this public file; it appears only on the business card itself.
+END:VCARD
