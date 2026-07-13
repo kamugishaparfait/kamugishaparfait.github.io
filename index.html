@@ -24,11 +24,18 @@
     box-shadow:0 0 24px rgba(0,32,96,.08);
   }
   header{
-    background:var(--navy); color:#fff; padding:44px 28px 32px;
+    background:var(--navy); color:#fff; padding:34px 28px 32px;
     border-bottom:4px solid var(--gold);
+    text-align:center;
+  }
+  .avatar{
+    width:132px; height:132px; border-radius:50%;
+    object-fit:cover; display:block; margin:0 auto 18px;
+    border:3px solid var(--gold);
+    background:var(--wash);
   }
   header h1{font-size:1.55rem; font-weight:700; letter-spacing:-.01em}
-  header .rule{width:56px; height:4px; background:var(--gold); margin:12px 0 14px}
+  header .rule{width:56px; height:4px; background:var(--gold); margin:12px auto 14px}
   header p{font-size:.95rem; opacity:.92}
   header p.org{font-weight:600; margin-top:2px}
   header p.loc{font-size:.85rem; opacity:.75; margin-top:8px}
@@ -70,6 +77,7 @@
 <body>
 <div class="card">
   <header>
+    <img class="avatar" src="headshot.jpg" alt="Parfait A. Kamugisha" width="132" height="132">
     <h1>Parfait A. Kamugisha, CFA</h1>
     <div class="rule"></div>
     <p>Senior Analyst, Portfolio Management</p>
